@@ -21,7 +21,7 @@ aria2 自动 ban 掉迅雷等不受欢迎客户端的脚本（仅限 Linux）
     pacman -S ipset yarn
 
 ### Centos
-    yum install ipset
+    yum install -y ipset
 
 ## 下载
 二选一  
@@ -35,7 +35,7 @@ aria2 自动 ban 掉迅雷等不受欢迎客户端的脚本（仅限 Linux）
 
 ### 开发版
 
-    git clone https://github.com/makeding/aria2b.git # 克隆
+    git clone https://github.com/linkea131/aria2b.git # 克隆
     cd aria2b
     yarn # 安装依赖
     # npm install # 也是安装依赖
