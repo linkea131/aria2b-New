@@ -135,10 +135,10 @@ https://github.com/makeding/aria2b`)
         if (fs.existsSync(`${process.env.HOME}/.aria2/aria2.conf`)) {
             // 网上的教程一圈都是放这的
             path = `${process.env.HOME}/.aria2/aria2.conf`
-        } else if (fs.existsSync('/tmp/etc/aria2/aria2.conf.main')) {
+        } else if (fs.existsSync('/tmp/ccaa/aria2/aria2.conf.main')) {
             // openwrt
             path = '/tmp/etc/aria2/aria2.conf.main'
-        } else if (fs.existsSync(`/etc/aria2/aria2.conf`)) {
+        } else if (fs.existsSync(`/etc/ccaa/aria2.conf`)) {
             // 我自己放的地方
             path = `/etc/aria2/aria2.conf`
         } else if (fs.existsSync(`${process.env.PWD}/aria2.conf`)) {
